@@ -21,16 +21,25 @@
       "main"
     ],
     "plugins": [
-      "@semantic-release/commit-analyzer", 
+      "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       "@semantic-release/github",
-      ["@semantic-release/npm", {
-        "npmPublish": false
-      }],
-      ["@semantic-release/git", {
-        "assets": ["package.json", "yarn.lock"],
-        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-      }]
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "package.json",
+            "yarn.lock"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
     ]
   },
   "repository": {
@@ -64,6 +73,7 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.7.0",
+    "@semantic-release/git": "^10.0.1",
     "@types/jest": "^26.0.20",
     "@typescript-eslint/eslint-plugin": "^4.14.2",
     "@typescript-eslint/parser": "^4.14.2",
@@ -77,6 +87,7 @@
     "nock": "^13.0.7",
     "np": "^7.5.0",
     "prettier": "^2.2.1",
+    "semantic-release": "^22.0.5",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
   },

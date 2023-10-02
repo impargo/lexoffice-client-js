@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 18
+          node-version: 18.17
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.ADMIN_ACCESS_TOKEN }}
