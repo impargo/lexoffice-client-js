@@ -57,13 +57,10 @@
   ],
   "author": "elbstack <hello@elbstack.com>",
   "contributors": [
-    "Annaelle Rössert <annaelle@elbstack.com>"
+    "Annaelle Rössert <annaelle@elbstack.com>",
+    "David Paulus <d.paulus@impargo.de>"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/elbstack/lexoffice-client-js/issues"
-  },
-  "homepage": "https://github.com/elbstack/lexoffice-client-js#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
