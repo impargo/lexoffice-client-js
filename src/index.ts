@@ -12,7 +12,7 @@ import { PaymentConditionClient } from './paymentCondition/paymentCondition.clie
 import { ProfileClient } from './profile/profile.client';
 import { QuotationClient } from './quotation/quotation.client';
 import { RecurringTemplateClient } from './recurringTemplate/recurringTemplate.client';
-import { VoucherlistClient } from './voucherList/voucherList.client';
+import { VoucherlistClient } from './voucherlist/voucherlist.client';
 import { VoucherClient } from './voucher/voucher.client';
 import { FileClient } from './file/file.client';
 import { PostingCategoryClient } from './postingCategory/postingCategory.client';
@@ -69,7 +69,7 @@ export * from './paymentCondition/paymentCondition.type';
 export * from './profile/profile.type';
 export * from './quotation/quotation.type';
 export * from './recurringTemplate/recurringTemplate.type';
-export * from './voucherList/voucherList.type';
+export * from './voucherlist/voucherlist.type';
 export * from './voucher/voucher.type';
 export * from './file/file.type';
 export * from './postingCategory/postingCategory.type';
