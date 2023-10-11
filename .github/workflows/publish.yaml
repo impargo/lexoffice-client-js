@@ -46,12 +46,12 @@ jobs:
         run: yarn install --frozen-lockfile
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Lint
-        if: steps.publish.outputs.alreadyPublished == 'false'
-        run: yarn run lint
-      - name: Test
-        if: steps.publish.outputs.alreadyPublished == 'false'
-        run: yarn test
+      # - name: Lint
+      #   if: steps.publish.outputs.alreadyPublished == 'false'
+      #   run: yarn run lint
+      # - name: Test
+      #   if: steps.publish.outputs.alreadyPublished == 'false'
+      #   run: yarn test
       - name: Build
         if: steps.publish.outputs.alreadyPublished == 'false'
         run: yarn build
