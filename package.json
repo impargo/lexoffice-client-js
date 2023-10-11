@@ -74,6 +74,7 @@
     "eslint": "^7.19.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^5.0.1",
     "jest": "^26.6.3",
     "local-package-publisher": "^1.0.4",
     "microbundle": "^0.13.1",
