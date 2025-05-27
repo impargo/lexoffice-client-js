@@ -32,5 +32,6 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.ADMIN_ACCESS_TOKEN }}
+          NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: npx semantic-release@v22.0.12
 
